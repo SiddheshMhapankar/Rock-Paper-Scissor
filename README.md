@@ -1,4 +1,4 @@
-Rock-Paper-Scissor
+# Rock-Paper-Scissor
 
 Developed an interactive Rock Paper Scissors Game using HTML, CSS, and JavaScript, offering an engaging user experience in a user versus computer setting.
 Implemented a user-friendly interface where users can select their choice between rock, paper, or scissors through intuitive buttons.
