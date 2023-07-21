@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <p>Select your choice</p>
+        <section class="container">
+            <button class="box btn"  id="rock" value="rock" >✊</button>
+            <button class="box btn"  id="paper" value="paper" >🤚</button>
+            <button class="box btn"  id="scissor" value="scissor" >✌️</button>
+        </section>
+
+        <div id="hidden">
+            <div class="scoreContainer">
+                <p class="score" id="userScore">0</p>
+                <span> : </span>
+                <p class="score" id="computerScore">0</p>
+            </div>
+
+            <div class="scoreContainer">
+                    <p class="score removeBox">👨</p> 
+                    <span> : </span>
+                    <p class="score removeBox">🤖</p>
+            </div>
+
+            <div id="scoredescription">
+                <p id="userChoiceName"></p>
+                <p id="hiddenVs"> &nbsp; VS &nbsp; </p>
+                <p id="computerChoiceName"></p>
+            </div>
+            <div id="finalOutput"></div>
+            
+            <section class="container">
+                <button class="btn" id="clear" value="clear">🛑</button>
+            </section>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

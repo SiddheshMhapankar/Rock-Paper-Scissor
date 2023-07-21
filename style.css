@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 26px;
+    color: white;
+}
+body{
+    background-color: #36454F;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    text-transform: uppercase;
+    margin: 130px auto;
+}
+.container{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    margin: 0px auto;
+}
+.btn{
+    cursor: pointer;
+    height: 60px;
+    width: 80px;
+    border: 1px solid black;
+    margin: 0px 5px;
+    border-radius: 25px;
+    background-color: black;
+}
+.btn:hover{
+    background-color: green;
+}
+
+.removeBox{
+    border: none;
+    height: fit-content;
+}
+#finalOutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hidden{
+    visibility: visible;
+}
+#hiddenVs{
+    visibility: hidden;
+}
+
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+button:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+#clear{
+    margin: 5px auto;
+}
+.scoreContainer{
+    display: flex;
+    flex-direction: row;
+}
+.userRoboImage{
+    display: flex;
+    margin: 5px 0px;
+}
+#scoredescription{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+}
+.emojiSize{
+    font-size: 48px;
+}
+.score{
+    margin: 0px auto;
+}
+.userRoboImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#itemCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
